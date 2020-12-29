@@ -1,0 +1,95 @@
+
+/* margine defoult 0 */
+*{
+  margin: 0;
+}
+
+/* background*/
+body{
+  background-image: url(background.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/* Quadrato grigio trasparente  */
+.container{
+  width: 55%;
+  height:450px;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(28,28,28, 0.7);
+  border-radius: 2%
+
+}
+
+/* header */
+header{
+  text-align: center;
+  color: rgb(0,220,0);
+}
+.logo{
+  width: 20%;
+  height: 20%;
+
+}
+
+/* nav */
+.green-row{
+  background-color: rgb(0,220,0);
+  height: 30px;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+  padding: 0.5%;
+}
+
+/* bottoni nav */
+.mbottoni{
+  margin-top: 1%;
+}
+
+/* main */
+.sez-monopattini{
+  margin-left: 10%;
+  margin-top: 3%;
+  display: inline-block;
+  width: 60%;
+  font-size: 20px;
+  color: white;
+}
+
+/* barra arancione */
+.orange-battery{
+  background-color: orange;
+  width: 55%;
+  height: 20px;
+  border-radius: 3px;
+  margin-bottom: 3%;
+}
+
+/* barra verde */
+.green-battery{
+  background-color:rgb(0,190,0);
+  width: 90%;
+  height: 20px;
+  border-radius: 3px;
+  margin-bottom: 3%;
+}
+
+/* barra rossa */
+.red-battery{
+  background-color:rgb(190,0,0);
+  width: 20%;
+  height: 20px;
+  border-radius: 3px;
+  margin-bottom: 3%;
+}
+
+
+
+/* informazioni e stato carica */
+.info{
+  color:rgb(179, 179, 179);
+  font-size: 15px;
+}
